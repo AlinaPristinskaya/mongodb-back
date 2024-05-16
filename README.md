@@ -13,7 +13,7 @@ MongoDB database that stores information about cars
 Front repository:
 https://github.com/AlinaPristinskaya/mongodb-front
 
-Front repository:
+Back repository:
 https://github.com/AlinaPristinskaya/mongodb-back
 
 GH-pages: [alinapristinskaya.github.io/mongodb-front/](https://alinapristinskaya.github.io/mongodb-front/)
