@@ -10,7 +10,7 @@ const getCars = require('./routes/getCars');
 const app = express();
 // CORS configuration
 app.use(cors({
-  origin: 'http://localhost:3000'  // This is the URL of your React app
+  origin: 'https://alinapristinskaya.github.io'  // This is the URL of your React app
 }));
 
 // Set up port for server to listen on
