@@ -10,14 +10,17 @@ const getCars = require('./routes/getCars');
 const app = express();
 // CORS configuration
 app.use(cors({
-  origin: 'https://alinapristinskaya.github.io'  // This is the URL of your React app
+ // origin: 'https://alinapristinskaya.github.io'  // This is the URL of your React app
+ 
+ origin: 'http://localhost:3000'
 }));
 
 // Set up port for server to listen on
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 
 // ! [IMPORTANT]: Replace with your mongoDB URI string. You can get it from your Atlas cluster.
-const uri = "mongodb+srv://student:qGUO55MHRwXinFzB@hyperiondev.ksm1wff.mongodb.net/"
+const uri ="mongodb+srv://Alina:300588Alina@cluster0.hg1jotf.mongodb.net/car?retryWrites=true&w=majority&appName=Cluster0"
+
 
 // Connect to the database
 mongoose.Promise = global.Promise;
