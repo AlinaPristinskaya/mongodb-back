@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 // Import routes
 const getCars = require('./routes/getCars');
+require('dotenv').config();
 
 // Initialize express
 const app = express();
@@ -19,7 +20,7 @@ const PORT = process.env.PORT || 10000;
 
 
 
-const uri = process.env.MONGO_URI 
+const uri = process.env.MONGO_URI ||'mongodb+srv://alina:300588@cluster0.tyvdyv8.mongodb.net/cat?retryWrites=true&w=majority&appName=Cluster0'
 
 // Connect to the database
 mongoose.Promise = global.Promise;

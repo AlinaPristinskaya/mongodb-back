@@ -1,0 +1,39 @@
+# Node modules
+/node_modules/
+
+# Logs
+*.log
+*.log.*
+
+# npm package-lock files
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build directories
+/dist/
+/build/
+
+/*.tgz
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+
+# Debugging files
+*.vscode/
+
+# Docker files (if used)
+docker-compose.override.yml
+Dockerfile
