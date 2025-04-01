@@ -5,7 +5,7 @@
   "description": "Example of creating Models and Controllers with Mongoose to manipulate a database",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "HyperionDev",
